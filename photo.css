@@ -1,0 +1,14 @@
+.content-box {
+    position: relative;
+}
+
+.scroll-box {
+    position: absolute;
+    margin-top: 4rem;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+  }
+  

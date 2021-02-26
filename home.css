@@ -1,0 +1,156 @@
+
+  /** 드롭버튼**/
+
+ 
+  
+
+.news-flex-box {
+  flex: 0 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.news-box {
+  flex: 1;
+}
+
+.update-box {
+  flex: 1;
+}
+
+
+.miniroom {
+  flex: 1;
+}
+
+
+.box-title {
+  border-bottom: 1px solid grey;
+  color: #3b87ab;
+  font-family: 'Gugi', cursive;
+}
+
+.news-row {
+  display: flex;
+  font-size: 0.85rem;
+  margin: 3px 0;
+}
+
+.news-category {
+  padding: 0 6px;
+  margin-right: 6px;
+  color: white;
+  border-radius: 3px;
+}
+
+.category-pic {
+  background-color: #f15f5f;
+}
+
+.category-post {
+  background-color: #617dc1;
+}
+
+
+
+.menu-row {
+  display: flex;
+  border-bottom: 1px dashed grey;
+  margin: 3px 0;
+}
+
+.menu-item {
+  flex: 1;
+}
+
+.menu-num {
+  padding-left: 6px;
+  color: #003399;
+}
+
+.miniroom_gif-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miniroom_gif > img {
+  width: 30%;
+  padding: 10px;
+}
+
+/** 여기까지 home **/
+
+
+.photo-text-box {
+  flex: 0.2;
+  background-color: lightgray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.photo-text {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.diary-date-box {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  height: 3rem;
+  border: 1px solid #e7e7e7;
+  display: flex;
+  align-items: center;
+  position:absolute;
+  height: 3rem;
+}
+
+.today {
+  flex: 0 0 2rem;
+  margin: 0 1rem;
+  text-align: center;
+  color: #3b87ab;
+  font-weight: 700;
+}
+
+.date-list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.date {
+  flex: 0 0 1.5rem;
+  color: #707070;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.color-red {
+  color: red;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.diary-write-box {
+  border: 1px solid #e7e7e7;
+}
+
+.diary-write {
+  text-align:center;
+}
+
+.diary-write-date {
+  text-align:left;
+  margin-right: 15px;
+  padding: 10px;
+  color: blue;
+}
